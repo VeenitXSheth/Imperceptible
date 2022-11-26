@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2e2e2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.item1 {
+  padding: 10px 30px 15px;
+  margin-bottom: 50px;
+  transition: background-color 0.3s ease,
+    scale 0.3s ease,
+    opacity 0.3s ease,
+    color 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+.item1:hover {
+  background-color: white;
+  color: black;
+  scale: 102%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.item2 {
+  margin-bottom: 50px;
+  padding: 10px 30px 15px;
+  transition: background-color 0.3s ease,
+    scale 0.3s ease,
+    opacity 0.3s ease,
+    color 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+.item2:hover {
+  background-color: white;
+  color: black;
+  scale: 102%;
+  border-radius: 10px;
+}
+
+.item3 {
+  padding: 10px 30px 15px;
+  transition: background-color 0.3s ease,
+    scale 0.3s ease,
+    opacity 0.3s ease,
+    color 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+.item3:hover {
+  background-color: white;
+  color: black;
+  scale: 102%;
+  border-radius: 10px;
+}
+
+.back {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  scale: 50%;
+  margin-top: 50px;
+  transition: scale 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.back:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.back:active {
+  scale: 52%;
+}
